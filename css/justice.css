@@ -120,8 +120,15 @@
   margin-bottom: 10px;
 }
 
-.phone span {
+.phone a {
   display: flex;
+  text-decoration: none;
+  color:#fff;
+  transition: 0.5s;
+}
+
+.phone a:hover {
+  color: #DC8989;
 }
 
 .nav {
@@ -664,6 +671,21 @@ footer  {
 
 .line-items span {
   color: rgb(232, 133, 84);
+}
+
+.line-items a {
+  /*color: rgb(232, 133, 84);*/
+  display: flex;
+  text-decoration: none;
+  color:#fff;
+  transition: 0.5s;
+  background: none;
+  padding: 0;
+}
+
+.line-items a:hover {
+  background: none;
+  color: #DC8989;
 }
 
 .footer-btn .btn {

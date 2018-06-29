@@ -15,4 +15,12 @@ $(".back_to-top").hide();
     })
   }
   click();
+
+
+  $(".nav-mobile").hide();
+
+  $(".burger").click(function () {
+    $(".nav-mobile").slideToggle("800");
+  })
+
 });
