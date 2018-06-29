@@ -581,6 +581,9 @@ section {
   .content-news{
     flex-wrap: wrap;
   }
+  .news a {
+    color: #fff;
+  }
 }
 
 @media (max-width: 400px) {
